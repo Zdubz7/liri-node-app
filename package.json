@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/Zdubz7/liri-node-app#readme",
   "dependencies": {
+    "columnify": "^1.5.4",
     "dotenv": "^6.0.0",
+    "figlet": "^1.2.0",
     "fs": "0.0.1-security",
     "node-spotify-api": "^1.0.7",
     "request": "^2.87.0",
