@@ -60,7 +60,7 @@ else if (liriCommand === "help") {
 }
 // If the user decides to enter a command that cannot be done, this section notify's the user that the command that they inputted can not be found.
 else {
-    console.log("Command not found. Run 'node liri.js help' to see a list of available commands.");
+    console.log("I'm Sorry, But Your Command Is Not Found. Please Run 'node liri.js help' To View A List Of Available Commands.");
 }
 // When ran, this function gets the movie info for the specified movie that the user requested.
 function getMovieInfo() {
@@ -76,8 +76,8 @@ function getMovieInfo() {
     if (!movieName) {
         // If the user doesn't specify a movie, set the movieName = to Mr.nobody in the liri app command line.
         movieName = "Mr Nobody";
-        console.log("If you haven't watched Mr. Nobody, then you should: http://www.imdb.com/title/tt0485947/");
-        console.log("It's on Netflix!");
+        console.log("If you haven't seen Mr. Nobody, then you should: http://www.imdb.com/title/tt0485947/");
+        console.log("Mr.Nobody Is On Netflix, Check It Out :)");
     }
     // This section uses the figlet npm package to convert the movieName text into art/drawing.
     figlet(movieName, function (err, data) {
@@ -95,11 +95,11 @@ function getMovieInfo() {
         // This section reveals if the request is successful or not to the user in the liri app.
         if (!error && response.statusCode === 200) {
             // This section parses the body of the JSON object that holds all of the movie data and displays the movie into to the user of the liri app command line.
-            var movieInfo = JSON.parse(body);
+            var movieInformation = JSON.parse(body);
             // The movieInfo is than console logged for the user.
 
             // This variable holds the Rotten Tomatoes Rating in the liri app.
-            var tomatoRating = movieInfo.Ratings[1].Value;
+            var rottenRating = movieInformation.Ratings[1].Value;
 
             // This variable outputs the following information about the movieName.
             var movieResult =
@@ -114,28 +114,28 @@ function getMovieInfo() {
                 "=======================================================================================================" + "\r\n" +
 
                 // This is the title of the movie that is displayed.
-                "Title: " + movieInfo.Title + "\r\n" +
+                "Title: " + movieInformation.Title + "\r\n" +
 
                 // This is the year that the movie came out that is displayed.
-                "Year movie was released: " + movieInfo.Year + "\r\n" +
+                "Year movie was released: " + movieInformation.Year + "\r\n" +
 
                 // This is the IMBD rating of the movie that the user selects and is displayed.
-                "IMDB movie rating (out of 10): " + movieInfo.imdbRating + "\r\n" +
+                "IMDB movie rating (out of 10): " + movieInformation.imdbRating + "\r\n" +
 
                 // This is the Rotten Tomatoes rating of the movie that the user selects.
-                "Rotten Tomatoes rating (out of 100%): " + tomatoRating + "\r\n" +
+                "Rotten Tomatoes rating (out of 100%): " + rottenRating + "\r\n" +
 
                 // This is the country where the movie was produced that is displayed to the user.
-                "Filmed in: " + movieInfo.Country + "\r\n" +
+                "Filmed in: " + movieInformation.Country + "\r\n" +
 
                 // This is the language of the movie that is displayed to the user.
-                "Language: " + movieInfo.Language + "\r\n" +
+                "Language: " + movieInformation.Language + "\r\n" +
 
                 // This is the plot of the movie that is displayed to the user.
-                "Movie plot: " + movieInfo.Plot + "\r\n" +
+                "Movie plot: " + movieInformation.Plot + "\r\n" +
 
                 // This displays the actors in the movie to the user.
-                "Actors: " + movieInfo.Actors + "\r\n" +
+                "Actors: " + movieInformation.Actors + "\r\n" +
 
                 // This is another line break.
                 "=======================================================================================================";
@@ -153,10 +153,10 @@ function getMovieInfo() {
 function getLatestTweets() {
 
     // This uses the figlet npm package to convert text to art/drawings for the user in the liri app.
-    figlet('My tweets', function (err, data) {
-        if (err) {
+    figlet('My tweets', function (error, data) {
+        if (error) {
             console.log('Something went wrong...');
-            console.dir(err);
+            console.dir(error);
             return;
         }
         console.log(data);
@@ -184,7 +184,7 @@ function getLatestTweets() {
             for (var i = 0; i < tweets.length; i++) {
 
                 // This variable outputs the tweets for the fake Denzel Washington Twitter that I created.
-                var myTweetResults =
+                var denzelTwitterResults =
                     "==========================================================================" + "\r\n" +
 
                     // This displays a tweet number for each individual tweet, as an example the first tweet on the list of 20 will be displayed at tweet #1 etc. etc.
@@ -198,10 +198,10 @@ function getLatestTweets() {
                     "==========================================================================";
 
                 // This outputs the results tot he liri app terminal.
-                console.log(myTweetResults);
+                console.log(denzelTwitterResults);
 
                 //output the results to the log.txt file.
-                logData(myTweetResults);
+                logData(denzelTwitterResults);
             }
         }
     });
@@ -284,14 +284,14 @@ function getSongInfo(songName) {
 
             // This variable loops through the JSON data to display the top songs to the user.
             for (var i = 0; i < data.tracks.items.length; i++) {
-                var trackInfo = data.tracks.items[i];
+                var trackInformation = data.tracks.items[i];
 
                 // This variable creates a song preview link.
-                var previewSong = trackInfo.preview_url;
+                var previewSong = trackInformation.preview_url;
 
                 // If the songs preview is null or not available to the user, this variable tells the user that the song preview is not available within the terminal window.
                 if (previewSong === null) {
-                    previewSong = "Song preview is not available for this song.";
+                    previewSong = "I'm Sorry, The Preview For This Song Is Currently Unavailable :'(";
                 }
 
                 // This variable outputs the songs result to the user.
@@ -304,16 +304,16 @@ function getSongInfo(songName) {
                     "Song #" + (i + 1) + "\r\n" +
 
                     // This outputs the artist to the terminal.
-                    "Artist: " + trackInfo.artists[0].name + "\r\n" +
+                    "Artist: " + trackInformation.artists[0].name + "\r\n" +
 
                     // This outputs the song name to the terminal.
-                    "Song title: " + trackInfo.name + "\r\n" +
+                    "Song title: " + trackInformation.name + "\r\n" +
 
                     // This outputs a preview link of the song from spotify to the terminal.
                     "Preview song: " + previewSong + "\r\n" +
 
                     // This outputs the album that the song is from to the terminal.
-                    "Album: " + trackInfo.album.name + "\r\n" +
+                    "Album: " + trackInformation.album.name + "\r\n" +
 
                     // This line break is necissary to keep the log.txt file clean and organized.
                     "==========================================================================";
@@ -359,7 +359,7 @@ function logData(logResults) {
         }
         // If there was no error experiences, "Content Added" will be logged to the node console.
         else {
-            console.log("Content Added!");
+            console.log("Your Content Has Been Successfully Added!");
         }
     });
 
@@ -368,33 +368,33 @@ function logData(logResults) {
 function showHelp() {
 
     // The Figlet npm package I included in the read me is used to convert the text into artwork/drawing.
-    figlet('LIRI help', function (err, data) {
-        if (err) {
-            console.log('Something went wrong...');
-            console.dir(err);
+    figlet('LIRI help', function (error, data) {
+        if (error) {
+            console.log('There is something very wrong with what you just did...');
+            console.dir(error);
             return;
         }
         console.log(data);
     });
-    var helpInfo = "Usage: node liri.js <command> [arguments]";
-    var helpColumns = createcolumns([{
+    var helpfulInformation = "Usage: node liri.js <command> [arguments]";
+    var helpfulColumns = createcolumns([{
         Command: 'my-tweets',
-        Description: "Shows the last 20 tweets from Twitter timeline and when they were created."
+        Description: "This command shows the last 20 tweets that are displayed on the fake Denzel Washington Twitter account that I created."
     }, {
 
         Command: "movie-this [movie_name]",
-        Description: "Shows information about the specified movie. If no movie is specified, Mr. Nobody is displayed by default."
+        Description: "This command shows information about a specific movie that is inputted by the user. If no movie is specified by the user, the movie title defaults to Mr.Nobody."
     }, {
 
         Command: "spotify-this-song [song_name]",
-        Description: "Shows top 10 songs on Spotify that have specified name. If no song is specified, The Sign by Ace of Base is displayed by default."
+        Description: " This command shows the top 10 songs on Spotify that are close to that original songs title. If no song is specified, The Sign by Ace of Base is displayed by default."
     }, {
 
         Command: 'do-what-it-says',
-        Description: "Shows the top 10 songs on Spotify for the song, 'I want it that way.'"
+        Description: "This command shows the top 10 songs on Spotify for the song, 'I want it that way.' and relates it to other songs with titles related to that song name."
     }]);
     console.log("==================================================================================================");
-    console.log(helpInfo);
+    console.log(helpfulInformation);
     console.log("==================================================================================================");
-    console.log(helpColumns);
+    console.log(helpfulColumns);
 }

@@ -1,2 +1,502 @@
 19:04:38.383 INFO  [{"code":89,"message":"Invalid or expired token."}] 
 19:04:55.539 INFO  [{"code":89,"message":"Invalid or expired token."}] 
+liri command: my-tweets
+My last 20 tweets
+==========================================================================
+Tweet #1
+Tweet: I love Philadelphia
+Created at: Tue Jul 17 22:22:05 +0000 2018
+==========================================================================
+=======================================================================================================
+liri command: movie-this  miracle
+=======================================================================================================
+Title: Big Miracle
+Year movie was released: 2012
+IMDB movie rating (out of 10): 6.5
+Rotten Tomatoes rating (out of 100%): 74%
+Filmed in: USA, UK
+Language: English
+Movie plot: In small-town Alaska, a news reporter recruits his ex-girlfriend - a Greenpeace volunteer - on a campaign to save a family of gray whales trapped by rapidly forming ice in the Arctic Circle.
+Actors: John Pingayak, Ahmaogak Sweeney, John Chase, Ishmael Angalook Hope
+=======================================================================================================
+=======================================================================================================
+liri command: movie-this  Social Network
+=======================================================================================================
+Title: The Social Network
+Year movie was released: 2010
+IMDB movie rating (out of 10): 7.7
+Rotten Tomatoes rating (out of 100%): 96%
+Filmed in: USA
+Language: English, French
+Movie plot: Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, but is later sued by two brothers who claimed he stole their idea, and the co-founder who was later squeezed out of the business.
+Actors: Jesse Eisenberg, Rooney Mara, Bryan Barter, Dustin Fitzsimons
+=======================================================================================================
+liri command: my-tweets
+My last 20 tweets
+==========================================================================
+Tweet #1
+Tweet: I love Philadelphia
+Created at: Tue Jul 17 22:22:05 +0000 2018
+==========================================================================
+==========================================================================
+liri command: spotify-this-song
+Artist: Ace of Base
+Song title: The Sign
+Preview song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=e9be490529e24d5588e0123258220adc
+Album: The Sign (US Album) [Remastered]
+
+==========================================================================
+liri command: do-what-it-says
+liri command: spotify-this-song
+==========================================================================
+Top 10 songs on Spotify with the name, "I Want it That Way"
+==========================================================================
+Song #1
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=e9be490529e24d5588e0123258220adc
+Album: The Hits--Chapter One
+==========================================================================
+==========================================================================
+Song #2
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=e9be490529e24d5588e0123258220adc
+Album: Millennium
+==========================================================================
+==========================================================================
+Song #3
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/f9f504a705fcaaf2f24b004b629725451014ad6c?cid=e9be490529e24d5588e0123258220adc
+Album: The Essential Backstreet Boys
+==========================================================================
+==========================================================================
+Song #4
+Artist: Anthem Lights
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=e9be490529e24d5588e0123258220adc
+Album: Covers Part IV
+==========================================================================
+==========================================================================
+Song #5
+Artist: Manuel Costa
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=e9be490529e24d5588e0123258220adc
+Album: I Want It That Way
+==========================================================================
+==========================================================================
+Song #6
+Artist: Glee Cast
+Song title: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+Preview song: https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=e9be490529e24d5588e0123258220adc
+Album: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+==========================================================================
+==========================================================================
+Song #7
+Artist: "Weird Al" Yankovic
+Song title: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Preview song: https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=e9be490529e24d5588e0123258220adc
+Album: Poodle Hat
+==========================================================================
+==========================================================================
+Song #8
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=e9be490529e24d5588e0123258220adc
+Album: 90 Sweet 90s Hits!
+==========================================================================
+==========================================================================
+Song #9
+Artist: Dynamite Boy
+Song title: I Want It That Way
+Preview song: Song preview is not available for this song.
+Album: Punk Goes Pop
+==========================================================================
+==========================================================================
+Song #10
+Artist: Steel Panther
+Song title: I Want It That Way
+Preview song: Song preview is not available for this song.
+Album: I Want It That Way
+==========================================================================
+liri command: do-what-it-says
+==========================================================================
+liri command: spotify-this-song
+Top 10 songs on Spotify with the name, "I Want it That Way"
+==========================================================================
+Song #1
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=e9be490529e24d5588e0123258220adc
+Album: The Hits--Chapter One
+==========================================================================
+==========================================================================
+Song #2
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=e9be490529e24d5588e0123258220adc
+Album: Millennium
+==========================================================================
+==========================================================================
+Song #3
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/f9f504a705fcaaf2f24b004b629725451014ad6c?cid=e9be490529e24d5588e0123258220adc
+Album: The Essential Backstreet Boys
+==========================================================================
+==========================================================================
+Song #4
+Artist: Anthem Lights
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=e9be490529e24d5588e0123258220adc
+Album: Covers Part IV
+==========================================================================
+==========================================================================
+Song #5
+Artist: Manuel Costa
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=e9be490529e24d5588e0123258220adc
+Album: I Want It That Way
+==========================================================================
+==========================================================================
+Song #6
+Artist: Glee Cast
+Song title: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+Preview song: https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=e9be490529e24d5588e0123258220adc
+Album: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+==========================================================================
+==========================================================================
+Song #7
+Artist: "Weird Al" Yankovic
+Song title: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Preview song: https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=e9be490529e24d5588e0123258220adc
+Album: Poodle Hat
+==========================================================================
+==========================================================================
+Song #8
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=e9be490529e24d5588e0123258220adc
+Album: 90 Sweet 90s Hits!
+==========================================================================
+==========================================================================
+Song #9
+Artist: Dynamite Boy
+Song title: I Want It That Way
+Preview song: Song preview is not available for this song.
+Album: Punk Goes Pop
+==========================================================================
+==========================================================================
+Song #10
+Artist: Steel Panther
+Song title: I Want It That Way
+Preview song: Song preview is not available for this song.
+Album: I Want It That Way
+==========================================================================
+==========================================================================
+liri command: spotify-this-song
+Top 10 songs on Spotify with the name,  whatIfs
+==========================================================================
+Song #1
+Artist: Emily Rugburn
+Song title: The Whatifs
+Preview song: https://p.scdn.co/mp3-preview/0dd9fb8c7a11c463bda50c290488785280969d94?cid=e9be490529e24d5588e0123258220adc
+Album: Statutory Tape
+==========================================================================
+==========================================================================
+Song #2
+Artist: Spetsnaz
+Song title: Between Whatifs and Might Have Beens
+Preview song: https://p.scdn.co/mp3-preview/65eb1da3fae81256b3f53ce4e7ad0d09195c813f?cid=e9be490529e24d5588e0123258220adc
+Album: For Generations to Come
+==========================================================================
+=======================================================================================================
+liri command: movie-this Mr Nobody
+=======================================================================================================
+Title: Mr. Nobody
+Year movie was released: 2009
+IMDB movie rating (out of 10): 7.9
+Rotten Tomatoes rating (out of 100%): 66%
+Filmed in: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Movie plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+=======================================================================================================
+=======================================================================================================
+liri command: movie-this  Social Network
+=======================================================================================================
+Title: The Social Network
+Year movie was released: 2010
+IMDB movie rating (out of 10): 7.7
+Rotten Tomatoes rating (out of 100%): 96%
+Filmed in: USA
+Language: English, French
+Movie plot: Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, but is later sued by two brothers who claimed he stole their idea, and the co-founder who was later squeezed out of the business.
+Actors: Jesse Eisenberg, Rooney Mara, Bryan Barter, Dustin Fitzsimons
+=======================================================================================================
+liri command: my-tweets
+My last 20 tweets
+==========================================================================
+Tweet #1
+Tweet: Javascript was a big challenge for me to learn and I'm getting better at it everyday.
+Created at: Sat Jul 21 17:12:33 +0000 2018
+==========================================================================
+==========================================================================
+Tweet #2
+Tweet: I find backend development much harder than front end development because I'm more about recreating the skin and bo… https://t.co/b0BdPtXMS3
+Created at: Sat Jul 21 17:11:58 +0000 2018
+==========================================================================
+==========================================================================
+Tweet #3
+Tweet: Coin compare is a great application to start understanding cryptocurrency exchanges
+Created at: Sat Jul 21 17:11:01 +0000 2018
+==========================================================================
+==========================================================================
+Tweet #4
+Tweet: I'm learning more and more everyday that I look up code and different code practices.
+Created at: Sat Jul 21 17:10:21 +0000 2018
+==========================================================================
+==========================================================================
+Tweet #5
+Tweet: I've learned a lot about coding in a short amount of time, its caused me to not sleep a lot
+Created at: Sat Jul 21 17:09:55 +0000 2018
+==========================================================================
+==========================================================================
+Tweet #6
+Tweet: You should check out Zach Wiests development portfolio because it has intructions to go to his github to be able to… https://t.co/eOl9caN6j1
+Created at: Sat Jul 21 17:09:30 +0000 2018
+==========================================================================
+==========================================================================
+Tweet #7
+Tweet: I created this liri app by watching youtube videos and looking up various node.js packages on google
+Created at: Sat Jul 21 17:08:51 +0000 2018
+==========================================================================
+==========================================================================
+Tweet #8
+Tweet: Dean Taub is a great instructor
+Created at: Sat Jul 21 17:08:28 +0000 2018
+==========================================================================
+==========================================================================
+Tweet #9
+Tweet: Sitting next to Coco Krispy is always clutch
+Created at: Sat Jul 21 17:08:16 +0000 2018
+==========================================================================
+==========================================================================
+Tweet #10
+Tweet: pennovation is a cool building I like to learn in
+Created at: Sat Jul 21 17:08:03 +0000 2018
+==========================================================================
+==========================================================================
+Tweet #11
+Tweet: I like using the figlet package to have artwork drawn for my movie titles
+Created at: Sat Jul 21 17:07:51 +0000 2018
+==========================================================================
+==========================================================================
+Tweet #12
+Tweet: I love Philadelphia
+Created at: Tue Jul 17 22:22:05 +0000 2018
+==========================================================================
+=======================================================================================================
+liri command: movie-this  Miracle
+=======================================================================================================
+Title: Big Miracle
+Year movie was released: 2012
+IMDB movie rating (out of 10): 6.5
+Rotten Tomatoes rating (out of 100%): 74%
+Filmed in: USA, UK
+Language: English
+Movie plot: In small-town Alaska, a news reporter recruits his ex-girlfriend - a Greenpeace volunteer - on a campaign to save a family of gray whales trapped by rapidly forming ice in the Arctic Circle.
+Actors: John Pingayak, Ahmaogak Sweeney, John Chase, Ishmael Angalook Hope
+=======================================================================================================
+=======================================================================================================
+liri command: movie-this  Social Network
+=======================================================================================================
+Title: The Social Network
+Year movie was released: 2010
+IMDB movie rating (out of 10): 7.7
+Rotten Tomatoes rating (out of 100%): 96%
+Filmed in: USA
+Language: English, French
+Movie plot: Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, but is later sued by two brothers who claimed he stole their idea, and the co-founder who was later squeezed out of the business.
+Actors: Jesse Eisenberg, Rooney Mara, Bryan Barter, Dustin Fitzsimons
+=======================================================================================================
+=======================================================================================================
+liri command: movie-this Mr Nobody
+=======================================================================================================
+Title: Mr. Nobody
+Year movie was released: 2009
+IMDB movie rating (out of 10): 7.9
+Rotten Tomatoes rating (out of 100%): 66%
+Filmed in: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Movie plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+=======================================================================================================
+==========================================================================
+liri command: spotify-this-song
+Top 10 songs on Spotify with the name,  What Ifs
+==========================================================================
+Song #1
+Artist: Kane Brown
+Song title: What Ifs
+Preview song: https://p.scdn.co/mp3-preview/9a1bc6de88d686138b641e6022a4b30c6e75de74?cid=e9be490529e24d5588e0123258220adc
+Album: Kane Brown
+==========================================================================
+==========================================================================
+Song #2
+Artist: Kane Brown
+Song title: What Ifs
+Preview song: https://p.scdn.co/mp3-preview/38694be1b7496f8ff0f308340855c9d8dfc5cf01?cid=e9be490529e24d5588e0123258220adc
+Album: Kane Brown (Deluxe Edition)
+==========================================================================
+==========================================================================
+Song #3
+Artist: Kane Brown
+Song title: What Ifs (Remix)
+Preview song: https://p.scdn.co/mp3-preview/b05441ecafdf40446beb4bc8f8835b1a2421d447?cid=e9be490529e24d5588e0123258220adc
+Album: What Ifs (Remix)
+==========================================================================
+==========================================================================
+Song #4
+Artist: boyChild
+Song title: Counting What Ifs (feat. Soundmouse) - Original
+Preview song: https://p.scdn.co/mp3-preview/70d964d280f453940f23b78f5bc8233742ebbc2e?cid=e9be490529e24d5588e0123258220adc
+Album: Counting What Ifs (feat. Soundmouse)
+==========================================================================
+==========================================================================
+Song #5
+Artist: boyChild
+Song title: Counting What Ifs (feat. Soundmouse) - Darkhorse Ambient Room Remix
+Preview song: https://p.scdn.co/mp3-preview/307753756f5d7f6cdebc8112a50bf31512bdb7d6?cid=e9be490529e24d5588e0123258220adc
+Album: Counting What Ifs (feat. Soundmouse)
+==========================================================================
+==========================================================================
+Song #6
+Artist: Melanie Baker
+Song title: What Ifs
+Preview song: https://p.scdn.co/mp3-preview/9de234644b9cc922ae56869b0b7f98a2d62c16cf?cid=e9be490529e24d5588e0123258220adc
+Album: What Ifs
+==========================================================================
+==========================================================================
+Song #7
+Artist: Snare Noise
+Song title: What Good Do What Ifs Do?
+Preview song: https://p.scdn.co/mp3-preview/f019a94c567ce7d56253aac95b8699982676aa55?cid=e9be490529e24d5588e0123258220adc
+Album: What Good Do What Ifs Do?
+==========================================================================
+==========================================================================
+Song #8
+Artist: boyChild
+Song title: Counting What Ifs - Vika Remix
+Preview song: https://p.scdn.co/mp3-preview/f672b9ef58af0e8a32f5525ae52e312716253db3?cid=e9be490529e24d5588e0123258220adc
+Album: Counting What Ifs (feat. Soundmouse)
+==========================================================================
+==========================================================================
+Song #9
+Artist: Ryan Krysiak
+Song title: What Ifs (feat. Brenna Nicole Bone)
+Preview song: https://p.scdn.co/mp3-preview/7b49eeca51d768df6692c553973484c212171015?cid=e9be490529e24d5588e0123258220adc
+Album: What Ifs (feat. Brenna Nicole Bone)
+==========================================================================
+==========================================================================
+Song #10
+Artist: Jaguar Wright
+Song title: The What If's
+Preview song: I'm Sorry, The Preview For This Song Is Currently Unavailable :'(
+Album: Denials Delusions And Decisions
+==========================================================================
+liri command: do-what-it-says
+==========================================================================
+liri command: spotify-this-song
+Top 10 songs on Spotify with the name, "I Want it That Way"
+==========================================================================
+Song #1
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=e9be490529e24d5588e0123258220adc
+Album: The Hits--Chapter One
+==========================================================================
+==========================================================================
+Song #2
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=e9be490529e24d5588e0123258220adc
+Album: Millennium
+==========================================================================
+==========================================================================
+Song #3
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/f9f504a705fcaaf2f24b004b629725451014ad6c?cid=e9be490529e24d5588e0123258220adc
+Album: The Essential Backstreet Boys
+==========================================================================
+==========================================================================
+Song #4
+Artist: Anthem Lights
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=e9be490529e24d5588e0123258220adc
+Album: Covers Part IV
+==========================================================================
+==========================================================================
+Song #5
+Artist: Manuel Costa
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=e9be490529e24d5588e0123258220adc
+Album: I Want It That Way
+==========================================================================
+==========================================================================
+Song #6
+Artist: Glee Cast
+Song title: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+Preview song: https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=e9be490529e24d5588e0123258220adc
+Album: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+==========================================================================
+==========================================================================
+Song #7
+Artist: "Weird Al" Yankovic
+Song title: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Preview song: https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=e9be490529e24d5588e0123258220adc
+Album: Poodle Hat
+==========================================================================
+==========================================================================
+Song #8
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Preview song: https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=e9be490529e24d5588e0123258220adc
+Album: 90 Sweet 90s Hits!
+==========================================================================
+==========================================================================
+Song #9
+Artist: Dynamite Boy
+Song title: I Want It That Way
+Preview song: I'm Sorry, The Preview For This Song Is Currently Unavailable :'(
+Album: Punk Goes Pop
+==========================================================================
+==========================================================================
+Song #10
+Artist: Steel Panther
+Song title: I Want It That Way
+Preview song: I'm Sorry, The Preview For This Song Is Currently Unavailable :'(
+Album: I Want It That Way
+==========================================================================
+==========================================================================
+liri command: spotify-this-song
+Artist: Ace of Base
+Song title: The Sign
+Preview song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=e9be490529e24d5588e0123258220adc
+Album: The Sign (US Album) [Remastered]
+
+==========================================================================
+=======================================================================================================
+liri command: movie-this Mr Nobody
+=======================================================================================================
+Title: Mr. Nobody
+Year movie was released: 2009
+IMDB movie rating (out of 10): 7.9
+Rotten Tomatoes rating (out of 100%): 66%
+Filmed in: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Movie plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+=======================================================================================================
